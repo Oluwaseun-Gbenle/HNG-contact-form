@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 .responsive-image {
     max-width: 100%;
     height: auto;
@@ -10,14 +14,18 @@
     width: 50%; height: 50vh;padding-left: 20px;
     font-family: 'Times New Roman';
 }
+.sec-item-one {
+    padding-left: 60px;
+}
 .cont-text{
     margin-bottom: 15px; padding-bottom: 20px;
     margin-top: 15px; padding-left: 10px; 
     width: 80%;border-style: none none ridge none;
     border-bottom-color: rgb(178, 207, 233);
+    font-family: Roboto; margin-left:70px;
 }
 .sed{
-    width: 15%;height: 30px; margin-left: 60%; 
+    width: 15%;height: 30px; margin-left: 77%; 
     padding-bottom: 0px;background-color: black;
     color: white;margin-top: 25px;
 }
@@ -26,4 +34,23 @@
 }
 .add-one{
     line-height:30px;
+}
+
+@media screen and (max-width: 650px){
+    .sec-nav { 
+        display: flex;
+        flex-direction: column; 
+    }
+    .cont-text{
+        margin-top: 15px; 
+        margin-left:40px;
+        margin-top: 50px;
+        width:300px;
+    }
+    .sed{
+        width: 30%;
+        margin-left:270px;
+    }
+
+
 }
