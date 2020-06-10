@@ -1,4 +1,4 @@
-* {
+body{
     margin: 0;
     padding: 0;
   }
@@ -41,13 +41,13 @@
         display: flex;
         flex-direction: column; 
     }
-    .cont-text{
+    .cont-text {
         margin-top: 15px; 
         margin-left:40px;
         margin-top: 50px;
         width:300px;
     }
-    .sed{
+    .sed {
         width: 30%;
         margin-left:270px;
     }
@@ -121,11 +121,13 @@ body {
   color: white;
   display: flex;
   justify-content: space-around;
+  height: 45px;
 }
 
 .bottom p {
   font-size: 14px;
   line-height: 16px;
+  margin-top:18px;
 }
 
 @media only screen and (max-width: 800px) { 
