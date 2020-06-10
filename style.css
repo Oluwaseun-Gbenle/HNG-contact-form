@@ -2,3 +2,28 @@
     max-width: 100%;
     height: auto;
 }
+.sec-nav { 
+    display: flex; 
+    height: 70vh; width: 100%; padding-top: 30px;
+}
+.sec-nav-item {
+    width: 50%; height: 50vh;padding-left: 20px;
+    font-family: 'Times New Roman';
+}
+.cont-text{
+    margin-bottom: 15px; padding-bottom: 20px;
+    margin-top: 15px; padding-left: 10px; 
+    width: 80%;border-style: none none ridge none;
+    border-bottom-color: rgb(178, 207, 233);
+}
+.sed{
+    width: 15%;height: 30px; margin-left: 60%; 
+    padding-bottom: 0px;background-color: black;
+    color: white;margin-top: 25px;
+}
+.add-two{ font-size: 0.7em;line-height: 15px;
+
+}
+.add-one{
+    line-height:30px;
+}
