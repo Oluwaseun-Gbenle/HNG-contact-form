@@ -257,7 +257,11 @@ button {
 }
 
 @media screen and (max-width: 650px){
-    .sec-nav { 
+    body{
+      overflow-x:hidden;
+    }
+  
+  .sec-nav { 
         display: flex;
         flex-direction: column; 
         margin-bottom:350px;
