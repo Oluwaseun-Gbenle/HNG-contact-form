@@ -243,10 +243,10 @@ button {
     margin-top: 15px; padding-left: 10px; 
     width: 80%;border-style: none none ridge none;
     border-bottom-color: rgb(178, 207, 233);
-    font-family: Roboto; margin-left:70px;
+    font-family: Roboto; 
 }
 .sed{
-    width: 15%;height: 30px; margin-left: 77%; 
+    width: 15%;height: 30px; margin-left: 65%; 
     padding-bottom: 0px;background-color: black;
     color: white;margin-top: 25px;
 }
