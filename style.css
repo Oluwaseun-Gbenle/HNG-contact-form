@@ -223,7 +223,7 @@ button {
 
 /*contact form */
   .responsive-image {
-    width: 100%;
+    width: 100vw;
     height: 400px;
     object-fit:cover;
 }
@@ -258,9 +258,13 @@ button {
 }
 
 @media screen and (max-width: 650px){
-    body{
-      overflow-x:hidden;
-    }
+  .responsive-image {
+    Width:  100%;
+    Height:  auto;
+    Max-width:  720px;
+    Max-height:  250px;
+    Object-fit:  cover;
+}
   
   .sec-nav { 
         display: flex;
@@ -272,7 +276,7 @@ button {
         margin-top: 15px; 
         margin-left:40px;
         margin-top: 50px;
-        width:300px;
+        
     }
     .sed {
         width: 30%;
